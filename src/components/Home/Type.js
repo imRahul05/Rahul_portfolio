@@ -9,7 +9,7 @@ function Type() {
           "Web Developer",
           "MERN Stack Developer",
           "Student",
-          "Flutter"
+          "Flutter Developer"
         ],
         autoStart: true,
         loop: true,
