@@ -58,7 +58,7 @@ function Projects() {
               isBlog={false}
               title="Gift Of Hope"
               description="A Donation app using flutter Framework ,Dart and Firebase and Payment integration using Razorpay API."
-              ghLink="https://github.com/imRahul05/Flutter_projects"
+              ghLink="https://github.com/imRahul05/GiftofHope"
               demoLink="#"
             />
           </Col>
