@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chatify from "../../Assets/Projects/donation.png";
-import bitsOfCode from "../../Assets/Projects/portfolio.png";
+import bitsOfCode from "../../Assets/Projects/giphy.gif";
 import blog from "../../Assets/Projects/bloggy.png";
-import care from "../../Assets/Projects/community.png";
+import care from "../../Assets/Projects/community.gif";
 
 function Projects() {
   return (
