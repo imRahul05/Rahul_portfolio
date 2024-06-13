@@ -34,8 +34,8 @@ function Projects() {
               isBlog={false}
               title="Rahul's PortFolio"
               description="This is Dynamic My portfolio Website USing ReactJS."
-              ghLink="https://github.com/imRahul05/imRahul05"
-              demoLink="https://imrahul05.github.io/imRahul05/"
+              ghLink="https://github.com/imRahul05/Rahul_portfolio"
+              demoLink="https://imrahul05.netlify.app/"
             />
           </Col>
 
