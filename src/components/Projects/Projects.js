@@ -25,7 +25,7 @@ function Projects() {
               isBlog={false}
               title="Bloogyy"
               description="React.js for frontend interactivity and Node.js with Express for backend logic, my blog site employs MongoDB for robust data storage. Firebase integration enhances user authentication and real-time updates, ensuring a secure and responsive platform. Visitors can engage with articles through commenting and upvoting, fostering a vibrant community interaction."
-              ghLink="https://bloogyy.vercel.app/"
+              ghLink="https://github.com/imRahul05/blog_frontend"
               demoLink="https://bloogyy.vercel.app/"
             />
           </Col>
