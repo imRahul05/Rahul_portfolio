@@ -47,7 +47,7 @@ function Projects() {
               isBlog={false}
               title="Community Care"
               description="A mobile application using the Flutter framework and Firebase for the Smart India Hackathon 2023project by AICTE. It allows users to post local issues such as sanitation and other municipal concernsdirectly to their local municipal corporation."
-              ghLink="#"
+              ghLink="https://github.com/imRahul05/Community-Care"
               demoLink="https://communitycarev4.web.app/"
             />
           </Col>
@@ -59,7 +59,7 @@ function Projects() {
               title="Gift Of Hope"
               description="A Donation app using flutter Framework ,Dart and Firebase and Payment integration using Razorpay API."
               ghLink="https://github.com/imRahul05/GiftofHope"
-              demoLink="#"
+              demoLink="https://gifthope-523cb.web.app/"
             />
           </Col>
         </Row>
