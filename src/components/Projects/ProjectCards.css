@@ -1,0 +1,10 @@
+.technology-badge {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(108, 117, 125, 0.5); /* Blur effect */
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}

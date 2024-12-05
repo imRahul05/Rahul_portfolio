@@ -2,10 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/donation.png";
+import Gift from "../../Assets/Projects/donation.png";
 import bitsOfCode from "../../Assets/Projects/giphy.gif";
 import blog from "../../Assets/Projects/bloggy.png";
 import care from "../../Assets/Projects/community.gif";
+import movie from "../../Assets/Projects/movie-stream.png"
+import chatbot from '../../Assets/Projects/chatbot.png'
 
 function Projects() {
   return (
@@ -19,7 +21,32 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movie}
+              isBlog={false}
+              title="Movie-stream"
+              description="A Movie and Tv series streaming website using TMDB ,IMDB and Rapid API."
+              ghLink="https://github.com/imRahul05/GiftofHope"
+              demoLink="https://github.com/imRahul05/MovieStream1"
+              technologies={["React", "Web", "JS"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatbot}
+              isBlog={false}
+              title="Ai-converso"
+              description="A AI chatbot using Gemini API."
+              ghLink="https://github.com/imRahul05/ChatBot"
+              demoLink="https://ai-converso.vercel.app/"
+              technologies={["React", "Web", "JS"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blog}
               isBlog={false}
@@ -27,6 +54,7 @@ function Projects() {
               description="React.js for frontend interactivity and Node.js with Express for backend logic, my blog site employs MongoDB for robust data storage. Firebase integration enhances user authentication and real-time updates, ensuring a secure and responsive platform. Visitors can engage with articles through commenting and upvoting, fostering a vibrant community interaction."
               ghLink="https://github.com/imRahul05/blog_frontend"
               demoLink="https://bloogyy.vercel.app/"
+              technologies={["React", "Node.js", "MongoDB", "Firebase"]}
             />
           </Col>
 
@@ -38,6 +66,7 @@ function Projects() {
               description="A website using React.js and Node.js to showcase my projects, skills, and experience. The websitefeatures a clean, modern design and is fully responsive. It includes sections for my resume, projectportfolio and contact information. This project allowed me to demonstrate my proficiency in React.js andNode.js, as well as my ability to design and implement a complete web application from scratch."
               ghLink="https://github.com/imRahul05/Rahul_portfolio"
               demoLink="https://imrahul05.netlify.app/"
+              technologies={["React", "Node.js", "Web"]}
             />
           </Col>
 
@@ -49,19 +78,22 @@ function Projects() {
               description="A mobile application using the Flutter framework and Firebase for the Smart India Hackathon 2023project by AICTE. It allows users to post local issues such as sanitation and other municipal concernsdirectly to their local municipal corporation."
               ghLink="https://github.com/imRahul05/Community-Care"
               demoLink="https://communitycarev4.web.app/"
+              technologies={["Flutter", "Mobile", "Firebase"]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Gift}
               isBlog={false}
-              title="Gift Of Hope"
+              title="Gift of Hope"
               description="A Donation app using flutter Framework ,Dart and Firebase and Payment integration using Razorpay API."
               ghLink="https://github.com/imRahul05/GiftofHope"
-              demoLink="https://gifthope-523cb.web.app/"
+              demoLink="hhttps://movie-stream-phi.vercel.app/"
+              technologies={["Flutter", "Mobile", "Firebase"]}
             />
           </Col>
+
         </Row>
       </Container>
     </Container>
