@@ -30,7 +30,7 @@ function Projects() {
               description="A Movie and Tv series streaming website using TMDB ,IMDB and Rapid API."
               ghLink="https://github.com/imRahul05/GiftofHope"
               demoLink="https://github.com/imRahul05/MovieStream1"
-              technologies={["React", "Web", "JS"]}
+              technologies={["React", "Web", "TS"]}
             />
           </Col>
 
@@ -42,7 +42,7 @@ function Projects() {
               description="A AI chatbot using Gemini API."
               ghLink="https://github.com/imRahul05/ChatBot"
               demoLink="https://ai-converso.vercel.app/"
-              technologies={["React", "Web", "JS"]}
+              technologies={["React", "Web", "TS"]}
             />
           </Col>
 
