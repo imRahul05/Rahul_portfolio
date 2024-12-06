@@ -12,7 +12,7 @@ function Github() {
         username="imrahul05"
         blockSize={15}
         blockMargin={5}
-        color="#c084f5"
+        color="#59db3b"
         fontSize={16}
       />
     </Row>
