@@ -1,76 +1,50 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
-//import { SiCprogramming } from "react-icons/si"; // Import C language icon
-import { SiFlutter } from "react-icons/si"; // Import Flutter icon
+import { SiFlutter } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  // DiMongodb,
+  DiMongodb,
   DiPython,
   DiGit,
   DiJava,
 } from "react-icons/di";
-import {
-  // SiRedis,
-  SiFirebase,
-  // SiNextdotjs,
-  // SiSolidity,
-  // SiPostgresql,
-} from "react-icons/si";
-// import { TbBrandGolang } from "react-icons/tb";
+import { SiFirebase } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-       {/* <Col xs={4} md={2} className="tech-icons">
-        <SiCprogramming /> {/* Use C language icon 
-      </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-       {/* <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>  */}
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <CgCPlusPlus style={{ color: "#00599C" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiJavascript1 style={{ color: "#F0DB4F" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiNodejs style={{ color: "#68A063" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiReact style={{ color: "#61DBFB" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFlutter /> {/* Use Flutter icon */}
+        <DiMongodb style={{ color: "#4DB33D" }} />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit style={{ color: "#F1502F" }} />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase style={{ color: "#FFCA28" }} />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython style={{ color: "#306998" }} />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava style={{ color: "#007396" }} />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlutter style={{ color: "#02569B" }} />
       </Col>
     </Row>
   );
