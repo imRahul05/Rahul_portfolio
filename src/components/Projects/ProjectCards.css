@@ -1,10 +1,65 @@
 .technology-badge {
   display: inline-block;
+  background-color: #8f8a8a;
+  color: #000000;
+  padding: 5px 10px;
+  border-radius: 20px;
   margin: 5px;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: rgba(108, 117, 125, 0.5); /* Blur effect */
-  color: black;
+  font-size: 0.9em;
   font-weight: bold;
-  text-align: center;
+}
+
+.project-card-view {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-card-view:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-container {
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-img {
+  transition: transform 0.3s;
+}
+
+.card-img-container:hover .card-img {
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.tech-badges {
+  margin-bottom: 15px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.card-button {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
 }
