@@ -755,3 +755,24 @@ button:focus {
 .button-group .btn {
   margin: 0 10px;
 }
+
+.resume-btn {
+  background-color: rgba(98, 54, 134, 0.8); /* Updated to be a little transparent */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.resume-btn:hover {
+  background-color: rgba(109, 32, 197, 0.8); /* Updated to be a little transparent */
+  transform: translateY(-2px);
+}
+
+.resume-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
