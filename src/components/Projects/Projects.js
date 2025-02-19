@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col, ButtonGroup, Button } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-//import Particle from "../Particle";
+//`import Particle from "../Particle";
 import Gift from "../../Assets/Projects/donation.png";
 import bitsOfCode from "../../Assets/Projects/giphy.gif";
 import blog from "../../Assets/Projects/bloggy.png";

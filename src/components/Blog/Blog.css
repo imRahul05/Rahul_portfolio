@@ -1,0 +1,22 @@
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.blog-post {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .blog-post {
+    width: 90%;
+  }
+}
