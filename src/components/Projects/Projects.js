@@ -8,9 +8,20 @@ import blog from "../../Assets/Projects/bloggy.png";
 import care from "../../Assets/Projects/community.gif";
 import movie from "../../Assets/Projects/movie-stream.png";
 import chatbot from '../../Assets/Projects/chatbot.png';
+import pilpall from '../../Assets/Projects/pillpal.jpeg';
 import Particlebg from '../../components/Particlebg'
 
 const projects = [
+  {
+    imgPath: pilpall,
+    isBlog: false,
+    title: "PillPal",
+    description: "PillPal helps you manage medications, track doses, and stay on top of refills with smart reminders and a simple tracking system.",
+    ghLink: "https://github.com/imRahul05/PillPal",
+    demoLink: "https://pill-pal-ai.vercel.app/",
+    technologies: ["React", "Web", "JSX"],
+    category: "Web"
+  },
   {
     imgPath: movie,
     isBlog: false,
