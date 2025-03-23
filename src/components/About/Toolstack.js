@@ -7,7 +7,6 @@ import {
   SiSlack,
   SiVercel,
   SiNetlify,
-  SiGithubcopilot,
 } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { VscCopilot } from "react-icons/vsc";
