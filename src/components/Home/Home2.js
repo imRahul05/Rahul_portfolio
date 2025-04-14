@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/cool.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
 
 function Home2() {
   return (
@@ -24,22 +24,18 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C, DS and Javascript  </b>
+                <b className="purple"> C, DS and Javascript </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Projects </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Flutter.
-                </b>
+                also in areas related to <b className="purple">Flutter.</b>
               </i>
               <br />
-              <br />
-               I also apply my passion for developing projects
-              with <b className="purple">Node.js</b> and
+              <br />I also apply my passion for developing projects with{" "}
+              <b className="purple">Node.js</b> and
               {/* <i>
                 <b className="purple">
                   {" "}
@@ -54,7 +50,15 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg}
+               className="img-fluid" 
+               style={{
+                borderRadius: "50%",
+                width: "300px",
+                height: "300px",
+                objectFit: "cover",
+              }}
+              alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -77,12 +81,13 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/imrahul__05"
+                  href="https://twitter.com/imrahul165
+"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <RiTwitterXFill />
                 </a>
               </li>
               <li className="social-icons">

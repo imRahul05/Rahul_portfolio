@@ -1,5 +1,6 @@
 import React from "react";
 import Particles from "react-tsparticles";
+import "./Particlebg.css"
 
 function Particlebg() {
   const particlesOptions = {
@@ -113,7 +114,11 @@ function Particlebg() {
     retina_detect: true
   };
 
-  return <Particles params={particlesOptions} />;
+  return (
+    <div className="particles-wrapper">
+      <Particles params={particlesOptions} />
+    </div>
+  );
 }
 
 export default Particlebg;

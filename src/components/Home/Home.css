@@ -1,0 +1,70 @@
+.border-anim-wrapper {
+    position: relative;
+    display: inline-block;
+    padding: 4px; /* border thickness */
+    border-radius: 40px;
+    background: linear-gradient(270deg, rgb(14, 185, 105), #0ff, #00f, #0ff);
+    background-size: 600% 600%;
+    animation: animateBorder 6s ease infinite;
+  }
+  
+  @keyframes animateBorder {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .animated-border {
+    display: block;
+    border-radius: 40px;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    display: inline-block;
+    border-radius: 40px;
+    overflow: hidden;
+  }
+  
+  .image-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(103, 12, 135, 0.3); /* Blue overlay with 30% opacity */
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
+  .resume-btn,
+.hire-btn {
+  position: relative;
+  z-index: 9999;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.resume-btn:hover,
+.hire-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+    .resume-btn:focus ,.hire-btn:hover{
+        outline: none;
+        box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+    }  
