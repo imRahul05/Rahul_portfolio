@@ -63,13 +63,18 @@ function Home() {
                     className="resume-btn"
                     onClick={() => {
                       // Navigate to resume page
-                      navigate("/resume");
-                      const link = document.createElement("a");
-                      link.href = pdf;
-                      link.download = "rahul_masai_resume.pdf";
-                      document.body.appendChild(link);
-                      link.click();
-                      document.body.removeChild(link);
+                     // navigate("/resume");
+                      
+                      // Create a link to download the resume
+                      const downloadLink = document.createElement("a");
+                      downloadLink.href = pdf;
+                      downloadLink.download = "rahul_masai_resume.pdf";
+                      document.body.appendChild(downloadLink);
+                      downloadLink.click();
+                      document.body.removeChild(downloadLink);
+                      
+                      // Open the resume in a new tab
+                      window.open(pdf, "_blank");
                     }}
                   >
                     📄 Resume
