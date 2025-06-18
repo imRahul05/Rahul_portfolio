@@ -7,6 +7,7 @@ import Type from "./Type";
 import Particlebg from "../../components/Particlebg";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
+import pdf from "../../Assets/rahul_masai_resume.pdf";
 
 function Home() {
   const navigate = useNavigate();
@@ -60,7 +61,16 @@ function Home() {
                 >
                   <button
                     className="resume-btn"
-                    onClick={() => navigate("/resume")}
+                    onClick={() => {
+                      // Navigate to resume page
+                      navigate("/resume");
+                      const link = document.createElement("a");
+                      link.href = pdf;
+                      link.download = "rahul_masai_resume.pdf";
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                    }}
                   >
                     📄 Resume
                   </button>

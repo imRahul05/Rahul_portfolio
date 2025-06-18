@@ -8,10 +8,22 @@ import blog from "../../Assets/Projects/bloggy.png";
 import care from "../../Assets/Projects/community.gif";
 import movie from "../../Assets/Projects/movie-stream.png";
 import chatbot from '../../Assets/Projects/chatbot.png';
-import pilpall from '../../Assets/Projects/pillpal.jpeg';
+import pilpall from '../../Assets/Projects/pillpal.png';
 import Particlebg from '../../components/Particlebg'
+import FinSage from '../../Assets/Projects/FinSage.png'
+import FriendLoop from '../../Assets/Projects/FriendLoop.png'
 
 const projects = [
+    {
+    imgPath: FinSage,
+    isBlog: false,
+    title: "FinSage",
+    description: "A better way to manage your finances, Take control of your financial journey with our comprehensive suite of tools. ",
+    ghLink: "https://github.com/imRahul05/Fin_service",
+    demoLink: "https://finsage-ai.vercel.app/",
+    technologies: ["React", "Web", "JSX"],
+    category: "Web"
+  },
   {
     imgPath: pilpall,
     isBlog: false,
@@ -23,25 +35,25 @@ const projects = [
     category: "Web"
   },
   {
-    imgPath: movie,
+    imgPath: FriendLoop,
     isBlog: false,
-    title: "Movie-stream",
-    description: "A sleek and intuitive streaming platform for movies and TV shows. Built with the latest web technologies, it fetches dynamic content from trusted APIs like TMDB, IMDB, and Rapid API to provide users with up-to-date information, trailers, and viewing options. Whether you're looking to discover new movies , Movie-stream has you covered!",
-    ghLink: "https://github.com/imRahul05/GiftofHope",
-    demoLink: "https://github.com/imRahul05/MovieStream1",
+    title: "FriendLoop",
+    description: "This project is a Facebook-inspired web app. It mimics core Facebook features such as authentication, posting, notifications, and interactive UI components.",
+    ghLink: "https://github.com/imRahul05/masai_WEB205_Unit_3_Facebook_clone",
+    demoLink: "https://fb-clone-masai.netlify.app/",
     technologies: ["React", "Web", "TS"],
     category: "Web"
   },
-  {
-    imgPath: chatbot,
-    isBlog: false,
-    title: "Ai-converso",
-    description: "AI Converso is an advanced chatbot application built using the Gemini API. This project leverages the power of AI to create seamless and intelligent conversational experiences. Developed with modern technologies like React and TypeScript, the web-based application offers a user-friendly interface for real-time interactions.",
-    ghLink: "https://github.com/imRahul05/ChatBot",
-    demoLink: "https://ai-converso.vercel.app/",
-    technologies: ["React", "Web", "TS"],
-    category: "Web"
-  },
+  // {
+  //   imgPath: chatbot,
+  //   isBlog: false,
+  //   title: "Ai-converso",
+  //   description: "AI Converso is an advanced chatbot application built using the Gemini API. This project leverages the power of AI to create seamless and intelligent conversational experiences. Developed with modern technologies like React and TypeScript, the web-based application offers a user-friendly interface for real-time interactions.",
+  //   ghLink: "https://github.com/imRahul05/ChatBot",
+  //   demoLink: "https://ai-converso.vercel.app/",
+  //   technologies: ["React", "Web", "TS"],
+  //   category: "Web"
+  // },
   {
     imgPath: blog,
     isBlog: false,
@@ -52,16 +64,16 @@ const projects = [
     technologies: ["React", "Node.js", "MongoDB", "Firebase"],
     category: "Web"
   },
-  {
-    imgPath: bitsOfCode,
-    isBlog: false,
-    title: "Rahul's PortFolio",
-    description: "A website using React.js and Node.js to showcase my projects, skills, and experience. The websitefeatures a clean, modern design and is fully responsive. It includes sections for my resume, projectportfolio and contact information. This project allowed me to demonstrate my proficiency in React.js andNode.js, as well as my ability to design and implement a complete web application from scratch.",
-    ghLink: "https://github.com/imRahul05/Rahul_portfolio",
-    demoLink: "https://imrahul05.netlify.app/",
-    technologies: ["React", "Node.js", "Web"],
-    category: "Web"
-  },
+  // {
+  //   imgPath: bitsOfCode,
+  //   isBlog: false,
+  //   title: "Rahul's PortFolio",
+  //   description: "A website using React.js and Node.js to showcase my projects, skills, and experience. The websitefeatures a clean, modern design and is fully responsive. It includes sections for my resume, projectportfolio and contact information. This project allowed me to demonstrate my proficiency in React.js andNode.js, as well as my ability to design and implement a complete web application from scratch.",
+  //   ghLink: "https://github.com/imRahul05/Rahul_portfolio",
+  //   demoLink: "https://imrahul05.netlify.app/",
+  //   technologies: ["React", "Node.js", "Web"],
+  //   category: "Web"
+  // },
   {
     imgPath: care,
     isBlog: false,
@@ -73,15 +85,25 @@ const projects = [
     category: "Mobile"
   },
   {
-    imgPath: Gift,
+    imgPath: movie,
     isBlog: false,
-    title: "Gift of Hope",
-    description: "A mobile application built with Flutter and Firebase, designed to make the donation process seamless and secure. This app allows users to easily donate to various causes, with integrated payment functionality through Razorpay API. Whether you're giving to charity or supporting a cause close to your heart.",
+    title: "Movie-stream",
+    description: "A sleek and intuitive streaming platform for movies and TV shows. Built with the latest web technologies, it fetches dynamic content from trusted APIs like TMDB, IMDB, and Rapid API to provide users with up-to-date information, trailers, and viewing options. Whether you're looking to discover new movies , Movie-stream has you covered!",
     ghLink: "https://github.com/imRahul05/GiftofHope",
-    demoLink: "hhttps://movie-stream-phi.vercel.app/",
-    technologies: ["Flutter", "Mobile", "Firebase"],
-    category: "Mobile"
-  }
+    demoLink: "https://movie-stream-phi.vercel.app/",
+    technologies: ["React", "Web", "TS"],
+    category: "Web"
+  },
+  // {
+  //   imgPath: Gift,
+  //   isBlog: false,
+  //   title: "Gift of Hope",
+  //   description: "A mobile application built with Flutter and Firebase, designed to make the donation process seamless and secure. This app allows users to easily donate to various causes, with integrated payment functionality through Razorpay API. Whether you're giving to charity or supporting a cause close to your heart.",
+  //   ghLink: "https://github.com/imRahul05/GiftofHope",
+  //   demoLink: "hhttps://movie-stream-phi.vercel.app/",
+  //   technologies: ["Flutter", "Mobile", "Firebase"],
+  //   category: "Mobile"
+  // }
 ];
 
 function Projects() {
