@@ -7,42 +7,57 @@ import bitsOfCode from "../../Assets/Projects/giphy.gif";
 import blog from "../../Assets/Projects/bloggy.png";
 import care from "../../Assets/Projects/community.gif";
 import movie from "../../Assets/Projects/movie-stream.png";
-import chatbot from '../../Assets/Projects/chatbot.png';
-import pilpall from '../../Assets/Projects/pillpal.png';
-import Particlebg from '../../components/Particlebg'
-import FinSage from '../../Assets/Projects/FinSage.png'
-import FriendLoop from '../../Assets/Projects/FriendLoop.png'
+import chatbot from "../../Assets/Projects/chatbot.png";
+import pilpall from "../../Assets/Projects/pillpal.png";
+import Particlebg from "../../components/Particlebg";
+import FinSage from "../../Assets/Projects/FinSage.png";
+import FriendLoop from "../../Assets/Projects/FriendLoop.png";
+import crmsImage from "../../Assets/Projects/crms.png";
 
 const projects = [
-    {
+  {
     imgPath: FinSage,
     isBlog: false,
     title: "FinSage",
-    description: "A better way to manage your finances, Take control of your financial journey with our comprehensive suite of tools. ",
+    description:
+      "A better way to manage your finances, Take control of your financial journey with our comprehensive suite of tools. ",
     ghLink: "https://github.com/imRahul05/Fin_service",
     demoLink: "https://finsage-ai.vercel.app/",
     technologies: ["React", "Web", "JSX"],
-    category: "Web"
+    category: "Web",
   },
   {
     imgPath: pilpall,
     isBlog: false,
     title: "PillPal",
-    description: "PillPal helps you manage medications, track doses, and stay on top of refills with smart reminders and a simple tracking system.",
+    description:
+      "PillPal helps you manage medications, track doses, and stay on top of refills with smart reminders and a simple tracking system.",
     ghLink: "https://github.com/imRahul05/PillPal",
     demoLink: "https://pill-pal-ai.vercel.app/",
     technologies: ["React", "Web", "JSX"],
-    category: "Web"
+    category: "Web",
+  },
+  {
+    imgPath: crmsImage,
+    isBlog: false,
+    title: "CRMS - Candidate Referral System",
+    description:
+      "A comprehensive web application for managing employee referrals.Users can submit and track referrals while admins can manage the entire hiring pipeline with detailed statistics.",
+    ghLink: "https://github.com/yourusername/crms",
+    demoLink: "https://crms-demo.vercel.app/", // Update with your actual demo link
+    technologies: ["React", "Vite", "Tailwind", "JWT"],
+    category: "Web",
   },
   {
     imgPath: FriendLoop,
     isBlog: false,
     title: "FriendLoop",
-    description: "This project is a Facebook-inspired web app. It mimics core Facebook features such as authentication, posting, notifications, and interactive UI components.",
+    description:
+      "This project is a Facebook-inspired web app. It mimics core Facebook features such as authentication, posting, notifications, and interactive UI components.",
     ghLink: "https://github.com/imRahul05/masai_WEB205_Unit_3_Facebook_clone",
     demoLink: "https://fb-clone-masai.netlify.app/",
-    technologies: ["React", "Web", "TS"],
-    category: "Web"
+    technologies: ["HTML", "CSS", "JS"],
+    category: "Web",
   },
   // {
   //   imgPath: chatbot,
@@ -58,11 +73,12 @@ const projects = [
     imgPath: blog,
     isBlog: false,
     title: "Bloogyy",
-    description: "React.js for frontend interactivity and Node.js with Express for backend logic, my blog site employs MongoDB for robust data storage. Firebase integration enhances user authentication and real-time updates, ensuring a secure and responsive platform. Visitors can engage with articles through commenting and upvoting, fostering a vibrant community interaction.",
+    description:
+      "React.js for frontend interactivity and Node.js with Express for backend logic, my blog site employs MongoDB for robust data storage. Firebase integration enhances user authentication and real-time updates, ensuring a secure and responsive platform. Visitors can engage with articles through commenting and upvoting, fostering a vibrant community interaction.",
     ghLink: "https://github.com/imRahul05/blog_frontend",
     demoLink: "https://bloogyy.vercel.app/",
     technologies: ["React", "Node.js", "MongoDB", "Firebase"],
-    category: "Web"
+    category: "Web",
   },
   // {
   //   imgPath: bitsOfCode,
@@ -78,22 +94,25 @@ const projects = [
     imgPath: care,
     isBlog: false,
     title: "Community Care",
-    description: "A mobile application using the Flutter framework and Firebase for the Smart India Hackathon 2023project by AICTE. It allows users to post local issues such as sanitation and other municipal concernsdirectly to their local municipal corporation.",
+    description:
+      "A mobile application using the Flutter framework and Firebase for the Smart India Hackathon 2023project by AICTE. It allows users to post local issues such as sanitation and other municipal concernsdirectly to their local municipal corporation.",
     ghLink: "https://github.com/imRahul05/Community-Care",
     demoLink: "https://communitycarev4.web.app/",
     technologies: ["Flutter", "Mobile", "Firebase"],
-    category: "Mobile"
+    category: "Mobile",
   },
   {
     imgPath: movie,
     isBlog: false,
     title: "Movie-stream",
-    description: "A sleek and intuitive streaming platform for movies and TV shows. Built with the latest web technologies, it fetches dynamic content from trusted APIs like TMDB, IMDB, and Rapid API to provide users with up-to-date information, trailers, and viewing options. Whether you're looking to discover new movies , Movie-stream has you covered!",
+    description:
+      "A sleek and intuitive streaming platform for movies and TV shows. Built with the latest web technologies, it fetches dynamic content from trusted APIs like TMDB, IMDB, and Rapid API to provide users with up-to-date information, trailers, and viewing options. Whether you're looking to discover new movies , Movie-stream has you covered!",
     ghLink: "https://github.com/imRahul05/GiftofHope",
     demoLink: "https://movie-stream-phi.vercel.app/",
     technologies: ["React", "Web", "TS"],
-    category: "Web"
+    category: "Web",
   },
+
   // {
   //   imgPath: Gift,
   //   isBlog: false,
@@ -109,14 +128,15 @@ const projects = [
 function Projects() {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const filteredProjects = selectedCategory === "All"
-    ? projects
-    : projects.filter(project => project.category === selectedCategory);
+  const filteredProjects =
+    selectedCategory === "All"
+      ? projects
+      : projects.filter((project) => project.category === selectedCategory);
 
   return (
     <Container fluid className="project-section">
       {/* <Particle /> */}
-      <Particlebg/>
+      <Particlebg />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
@@ -125,9 +145,24 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <ButtonGroup className="mb-3">
-          <Button variant="outline-primary" onClick={() => setSelectedCategory("All")}>All</Button>
-          <Button variant="outline-primary" onClick={() => setSelectedCategory("Web")}>Web</Button>
-          <Button variant="outline-primary" onClick={() => setSelectedCategory("Mobile")}>Mobile</Button>
+          <Button
+            variant="outline-primary"
+            onClick={() => setSelectedCategory("All")}
+          >
+            All
+          </Button>
+          <Button
+            variant="outline-primary"
+            onClick={() => setSelectedCategory("Web")}
+          >
+            Web
+          </Button>
+          <Button
+            variant="outline-primary"
+            onClick={() => setSelectedCategory("Mobile")}
+          >
+            Mobile
+          </Button>
         </ButtonGroup>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {filteredProjects.map((project, index) => (
