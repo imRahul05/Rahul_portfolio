@@ -43,8 +43,8 @@ const projects = [
     title: "CRMS - Candidate Referral System",
     description:
       "A comprehensive web application for managing employee referrals.Users can submit and track referrals while admins can manage the entire hiring pipeline with detailed statistics.",
-    ghLink: "https://github.com/yourusername/crms",
-    demoLink: "https://crms-demo.vercel.app/", // Update with your actual demo link
+    ghLink: "https://github.com/imRahul05/crms-MERN",
+    demoLink: "https://crms-frontend-theta.vercel.app", // Update with your actual demo link
     technologies: ["React", "Vite", "Tailwind", "JWT"],
     category: "Web",
   },
