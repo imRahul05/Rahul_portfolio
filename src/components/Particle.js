@@ -48,6 +48,13 @@ function Particle() {
         },
         retina_detect: true,
       }}
+
+       style={{
+        position: "fixed",  // This is likely the issue
+        width: "100%",
+        height: "100%",
+        zIndex: -1  // Should be lower than PDF content
+      }}
     />
   );
 }
