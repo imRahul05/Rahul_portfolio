@@ -13,6 +13,7 @@ import Particlebg from "../../components/Particlebg";
 import FinSage from "../../Assets/Projects/FinSage.png";
 import FriendLoop from "../../Assets/Projects/FriendLoop.png";
 import crmsImage from "../../Assets/Projects/crms.png";
+import OMSimage from "../../Assets/Projects/oms.png";
 
 const projects = [
   {
@@ -45,7 +46,18 @@ const projects = [
       "A comprehensive web application for managing employee referrals.Users can submit and track referrals while admins can manage the entire hiring pipeline with detailed statistics.",
     ghLink: "https://github.com/imRahul05/crms-MERN",
     demoLink: "https://crms-frontend-theta.vercel.app", // Update with your actual demo link
-    technologies: ["React", "Vite", "Tailwind", "JWT"],
+    technologies: ["React", "Vite", "Tailwind", "JWT","Node.js", "Express", "MongoDB"],
+    category: "Web",
+  },
+    {
+    imgPath: OMSimage,
+    isBlog: false,
+    title: "OMS - Order Management System",
+    description:
+      "A comprehensive web application for managing orders. Users can submit and track orders while admins can manage the entire order pipeline with detailed statistics.",
+    ghLink: "https://github.com/imRahul05/Order_management_system",
+    demoLink:"https://order-management-system-inky-alpha.vercel.app/", // Update with your actual demo link
+    technologies: ["React", "Vite", "Tailwind", "JWT","Node.js", "Express", "MongoDB"],
     category: "Web",
   },
   {
