@@ -7,7 +7,7 @@ import Type from "./Type";
 import Particlebg from "../../components/Particlebg";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
-import pdf from "../../Assets/rahul_masai_resume.pdf";
+import pdf from "../../Assets/Rahul_resume_dev.pdf";
 import About from "../About/About";
 
 function Home() {
