@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Rahul_portfolio/static/css/main.0fd3d46a.css",
+    "main.js": "/Rahul_portfolio/static/js/main.247bcfc7.js",
+    "static/js/845.7b0e1b98.chunk.js": "/Rahul_portfolio/static/js/845.7b0e1b98.chunk.js",
+    "static/media/movie-stream.png": "/Rahul_portfolio/static/media/movie-stream.f280d8e729b4e383dada.png",
+    "static/media/avt.png": "/Rahul_portfolio/static/media/avt.484579ce5ea4214575f0.png",
+    "static/media/giphy.gif": "/Rahul_portfolio/static/media/giphy.7a56b652b73362e72eb9.gif",
+    "static/media/community.gif": "/Rahul_portfolio/static/media/community.7bb7ca264e74ac96c86c.gif",
+    "static/media/bloggy.png": "/Rahul_portfolio/static/media/bloggy.b2f5b60794f8cb49c84b.png",
+    "static/media/donation.png": "/Rahul_portfolio/static/media/donation.3fbbc4187d5524bcd94b.png",
+    "static/media/crms.png": "/Rahul_portfolio/static/media/crms.176eeb36aa3d982f46b9.png",
+    "static/media/FriendLoop.png": "/Rahul_portfolio/static/media/FriendLoop.3572ce2f7724f655a777.png",
+    "static/media/cool.jpeg": "/Rahul_portfolio/static/media/cool.b0b8b1bb4984fcc68b31.jpeg",
+    "static/media/oms.png": "/Rahul_portfolio/static/media/oms.a1497d692f2da8456d60.png",
+    "static/media/FinSage.png": "/Rahul_portfolio/static/media/FinSage.e33532b265f5ba4070e6.png",
+    "static/media/chatbot.png": "/Rahul_portfolio/static/media/chatbot.7fabfe21c163206a5435.png",
+    "static/media/Rahul_resume_dev.pdf": "/Rahul_portfolio/static/media/Rahul_resume_dev.432c354323b8487de264.pdf",
+    "static/media/about.png": "/Rahul_portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/pillpal.png": "/Rahul_portfolio/static/media/pillpal.864d20c15ad2a1d21257.png",
+    "static/media/home-bg.jpg": "/Rahul_portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/Rahul_portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/Rahul_portfolio/index.html",
+    "main.0fd3d46a.css.map": "/Rahul_portfolio/static/css/main.0fd3d46a.css.map",
+    "main.247bcfc7.js.map": "/Rahul_portfolio/static/js/main.247bcfc7.js.map",
+    "845.7b0e1b98.chunk.js.map": "/Rahul_portfolio/static/js/845.7b0e1b98.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fd3d46a.css",
+    "static/js/main.247bcfc7.js"
+  ]
+}
